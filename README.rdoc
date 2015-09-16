@@ -1,2 +1,3 @@
 Bundle Install
 rails g react:install
+be rake db:create
