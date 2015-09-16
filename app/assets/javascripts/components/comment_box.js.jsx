@@ -1,16 +1,12 @@
 var CommentBox = React.createClass({
-  getInitialState: function(){
-    return{
-      <div />,
-    }
-  },
-  render: function() {
+  render: function () {
     return (
       <div className="commentBox">
-        Hello, world! I am a CommentBox.
+        <h1> Comments </h1>
+        <CommentList />
+        <CommentBox />
       </div>
     );
   }
 });
-React.render(
-  <CommentBox />)
+
